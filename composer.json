@@ -12,5 +12,10 @@
     "config": {
         "sort-packages": true
     },
-    "require": {}
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "vimeo/psalm": "4.3.1"
+    }
 }
