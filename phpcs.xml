@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="PSR12" xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
+    <description>Formatting rules for nederdirk/class-content-sorter</description>
+
+    <rule ref="PSR12">
+        <include-pattern>src/</include-pattern>
+    </rule>
+
+    <rule ref="Generic.Formatting.MultipleStatementAlignment">
+        <include-pattern>src/</include-pattern>
+    </rule>
+
+    <exclude-pattern>vendor/</exclude-pattern>
+</ruleset>
