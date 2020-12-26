@@ -1,0 +1,16 @@
+{
+    "name": "nederdirk/class-content-sorter",
+    "description": "A tool to cut-and-paste class contents to sort them in a defined order.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dirk Nederveen",
+            "email": "dirk@zwartgeel.nl"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "require": {}
+}
